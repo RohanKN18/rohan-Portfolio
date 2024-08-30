@@ -490,3 +490,48 @@ body{
     82.5% { visibility: hidden; }
     84% { visibility: visible; }
 }
+
+
+
+
+#pillsContainer{
+    position: absolute;
+    top:75% ;
+    height: 25%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bluePill{
+    height:50px;
+    width:100px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: rgba(41, 190, 207, 0.911);
+    border-color: rgba(41, 190, 207, 0.911);
+    visibility: visible;
+    animation:bluePillAnimation 6s ease-in 0s 1  normal;
+}
+@keyframes bluePillAnimation{
+    0% { visibility: hidden; }
+    30% { visibility: hidden; }
+    33% { visibility: visible; }
+    
+}
+#redPill{
+    height:50px;
+    width:100px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color:rgb(159, 64, 83,1);
+    border-color:rgb(159, 64, 83,1);
+    visibility: visible;
+    animation:redPillAnimation 6s ease-in 0s 1  normal;
+}
+@keyframes redPillAnimation {
+    0% { visibility: hidden; }
+    61.5% { visibility: hidden; }
+    64.5% { visibility: visible; }
+}
