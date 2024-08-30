@@ -542,3 +542,30 @@ body{
     display: none;
     height: 2500px;
  }
+
+
+
+ #p2photoContainer{
+    position: sticky;
+    z-index: 3;
+    top: 5%;
+    left: 5%;
+    height: 50px;
+    width: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p2photo{
+    /* box-shadow:4px 4px 8px rgb(151, 239, 151); */
+    color: rgb(84, 165, 84);
+    height: 100%;
+    width: 100%;
+    background-image: url(/rohan-Portfolio/assets/resume.jpg);
+    background-size:cover;
+    border-radius: 50%;
+    border: solid rgb(26, 100, 26);
+    position:absolute;
+    display: inline-block;
+}
